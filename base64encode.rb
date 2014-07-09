@@ -1,4 +1,4 @@
-=being
+=begin
 using System.Text;
 
 namespace Foo 
