@@ -31,7 +31,7 @@ end
 # Needed my Mail to send our email
 options = { :address              => "smtp.gmail.com",
             :port                 => 587,
-            :user_name            => 'heynsd@gmail.com',
+            :user_name            => 'heyns@gmail.com',
             :password             => 'password',
             :authentication       => 'plain',
             :enable_starttls_auto => true  }
@@ -40,7 +40,7 @@ mailer = Mailer.new(options)
 
 # This is a Hash that will be passed to the awesome_email method
 details = { to: 'deon@deonheyns.com',
-            from: 'heynsd@gmail.com',
+            from: 'heyns@gmail.com',
             subject: 'Welcome to awesome!',
             template_path: 'mailer/awesome_email.html.erb' }
 

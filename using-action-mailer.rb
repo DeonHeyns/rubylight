@@ -29,7 +29,7 @@ class Mailer < ActionMailer::Base
 end
 
 # This is a Hash that will be passed to the awesome_email method
-details = { to: 'deon@deonheyns.com' , from: 'heynsd@gmail.com', subject: 'Welcome to awesome!' }
+details = { to: 'deon@deonheyns.com' , from: 'heyns@gmail.com', subject: 'Welcome to awesome!' }
 
 ActionMailer::Base.view_paths = File.dirname(__FILE__)
 

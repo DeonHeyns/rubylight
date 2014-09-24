@@ -2,7 +2,7 @@ require 'net/smtp'
 
 addresses = File.read('addresses.csv').split(',').map(&:strip)
 
-from = 'heynsd@gmail.com'
+from = 'heyns@gmail.com'
 password = 'a_password'
 
 message = <<EOM
